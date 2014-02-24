@@ -1,0 +1,17 @@
+{
+	"server": {
+		"port": "3000",
+		"path": {
+			"view": "./frontend/src/WEB-INF/views",
+			"mock": "./mocks",
+			"public": "./frontend/src"
+		},
+		"globals": {
+			"DEBUG": false,
+			"baseUrl": ""
+		}
+	},
+	"coffeescript": {
+		"debug": true
+	}
+}
